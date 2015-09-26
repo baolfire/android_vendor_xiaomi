@@ -69,7 +69,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/msm8960-common/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+    vendor/xiaomi/msm8960-common/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
